@@ -16,6 +16,12 @@
   *{
     font-family: 'Work Sans', sans-serif;
   }
+  .section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark-01, #131313)
+}
+
 /* header styles */
 header{background: rgba(255, 144, 14, 0.10);
 padding: 50px 240px;}
@@ -23,11 +29,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: var(--dark-01, #131313)
 }
 nav > ul{
     display: flex;
@@ -89,7 +90,27 @@ main{
 .team-title .feat{
     color: #FF900E;
 }
-
+/* facts-section-styles */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 30px 30px;
+}
+ .card-stats{
+font-size: 2.8rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.facts-card-container .card-title{
+    font-size: 1.25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 
 
