@@ -10,6 +10,9 @@
     cursor: pointer;
     border: 0;
   }
+  .text-light-grey{
+    color: #727272;
+  }
   *{
     font-family: 'Work Sans', sans-serif;
   }
@@ -50,9 +53,7 @@ nav li a{
     font-weight: 700;
     color: var(--dark-01, #131313);
 }
-.banner-description{
-    color: var(--dark-03, #727272);
-}
+
 .banner img{
     margin-top: 20px;
     width: 100%;
@@ -103,16 +104,24 @@ main{
     header{
         padding: 20px;
     }
-     nav{
+     nav, .team-container{
         flex-direction: column;
      }
+     .team-img-container{
+        grid-template-columns: 1fr;
+     }
+     .team-content{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
  }
 /* Tablet or media device */
 @media screen and (min-width:576px) and (max-width: 960px){
     header{
         padding: 50px;
     }
-    nav{
+    nav, .team-container{
         flex-direction: column;
     }
 }
